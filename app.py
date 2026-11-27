@@ -17,8 +17,9 @@ import core
 # ---------------------------------------------------------------------------
 # Settings to fill in before submission
 # ---------------------------------------------------------------------------
-REPO_URL = "https://github.com/OWNER/REPO"          # replace with the GitHub repository link
-GROUP_NAME = "Moodle group name"                    # replace with the group's Moodle name
+REPO_URL = "https://github.com/80097-nova/fm-trend-strategy"
+APP_URL = "https://fm-trend-strategy.streamlit.app/"
+GROUP_NAME = ""     # the group's Moodle name; shown on the "Method and data" tab once filled in
 STAND_INS = True    # set to False once persons 4 and 5's functions replace the stand-ins in core.py
 
 DATA_DIR = Path(__file__).parent / "data"
@@ -310,7 +311,7 @@ the rate set on the left, for both the strategy and the static 80/20. Moving int
 **Same numbers as the notebook.** Every calculation comes from `core.py`, which copies the functions of the
 group's notebook. With the default settings the app reproduces the notebook's main table.
 
-**Source code:** [{REPO_URL}]({REPO_URL}) · Group: {GROUP_NAME}
+**Links:** [live app]({APP_URL}) · [source code on GitHub]({REPO_URL}){" · Group: " + GROUP_NAME if GROUP_NAME else ""}
 
 For education only; past performance does not predict future returns. This is not investment advice.
 """

@@ -1,7 +1,8 @@
 # Trend-filtered 80/20 portfolio: interactive backtest
 
-**Live app:** https://APP-NAME.streamlit.app  (replace with the deployed link)
-**Course:** 2270 Financial Modeling, group assignment. **Group:** Moodle group name (replace)
+- **Live app:** https://fm-trend-strategy.streamlit.app/
+- **Source code:** https://github.com/80097-nova/fm-trend-strategy
+- **Course:** 2270 Financial Modeling (Nova SBE), group assignment.
 
 This app lets you change the main assumptions of our portfolio strategy and see the effect on
 performance and on the comparison with the benchmarks. It uses the same data, rules and
@@ -53,6 +54,7 @@ streamlit run app.py
 ```
 
 Tested with Python 3.13 and the package versions pinned in `requirements.txt` (pandas 3 needs Python 3.11 or later).
+The live app runs on Streamlit Community Cloud with Python 3.14.
 
 ## Files
 
